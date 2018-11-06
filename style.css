@@ -1,0 +1,231 @@
+/* TYPHOGRAPHY & IMAGES */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+.head img {
+  width: 170px;
+  margin: 20px 50px;
+  float: left;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}
+.head h3 {
+  float: left;
+  font-size: 15px;
+  margin-top: 30px;
+  font-weight: 600;
+  padding: 0 10px;
+  color: #608FDC;
+}
+.head h4 {
+  float: right;
+  font-size: 15px;
+  margin-top: 30px;
+  font-weight: 600;
+  padding: 0 10px;
+  color: #608FDC;
+}
+.head i {
+  float: left;
+  margin-top: 32px;
+  color: #608FDC;
+}
+.head h3:hover, .head h4:hover {
+  color: #D1DFF5;
+}
+.m-i-left h1 {
+  font-size: 57px;
+  font-weight: 800;
+  color: white;
+}
+.m-i-left h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #A4B5E2;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.m-i-right h1 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #031B4E;
+}
+.m-i-right h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0069FF;
+  text-align: center;
+  margin-top: 30px;
+}
+.btn-account h3 {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+.btn-google h3 {
+  font-size: 16px;
+  color: grey;
+  font-weight: 600;
+  float: right;
+  margin-right: 75px;
+}
+.btn-google img {
+  float: left;
+  width: 25px;
+  margin-top: -5px;
+}
+.main-ii h3 {
+  font-size: 15px;
+  color: rgb(168, 169, 179);
+  font-weight: 600;
+  text-align: center;
+}
+.main-ii h4 {
+  font-size: 15px;
+  color: #031C9C;
+  font-weight: 600;
+  text-align: center;
+}
+.main-ii i {
+  margin-left: 10px;
+  color: #031C9C;
+  margin-top: 2px;
+}
+.log-s img {
+  max-width: 100%;
+  height: auto;
+}
+/* DIV ---------------------------------------------------- */
+.flex-cont {
+  display: flex;
+}
+.head {
+  width: 100%;
+  height: 80px;
+  background: white;
+  padding-right: 60px;
+  z-index: 9999;
+}
+.main-i {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(to right, #003FBD, #258AD4);
+  padding: 200px 45px 80px 45px;
+  justify-content: space-between;
+}
+#fl-r {
+  float: right;
+}
+.sig-n {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  float: right;
+  margin-top: 23px;
+  padding: 0 8px;
+  border: 1px solid #003DBB;
+}
+.sig-n:hover {
+  background: #0045C4;
+  transition: all 0.3s ease 0s;
+}
+#signup-p {
+  float: right;
+  font-size: 15px;
+  margin-top: 7px;
+  font-weight: 600;
+  color: #003DBB;
+}
+#signup-p:hover {
+  color: white;
+}
+.m-i-left {
+  width: 50%;
+  height: 100%;
+}
+.m-i-right {
+  width: 450px;
+  height: 400px;
+  background: white;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+.sear-ch {
+  background: transparent;
+  height: 65px;
+  width: 100%;
+  padding: 10px 10px;
+}
+.bg-light {
+  background-color: transparent!important;
+}
+.form-inline {
+  width: 100%!important;
+}
+.form-control {
+  display: block;
+  width: 100%!important;
+  height: 45px;
+  padding: 10px 35px;
+  font-size: 15px;
+  line-height: 5.5;
+  color: grey;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #eff2f5;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  position: relative;
+}
+.btn-account {
+  width: 350px;
+  height: 45px;
+  border-radius: .25rem;
+  background: #3b53f7;
+  margin-top: 16px;
+  margin-left: 27px;
+  padding: 13px 85px;
+}
+.btn-account:hover {
+  background: #1633FF;
+  transition: all 0.3s ease 0s;
+}
+.btn-google {
+  width: 350px;
+  height: 45px;
+  border-radius: .25rem;
+  background: white;
+  margin-top: 16px;
+  margin-left: 27px;
+  padding: 13px 20px;
+  border: 0.5px solid lightgrey;
+  box-shadow: 0px 1px lightgrey;
+}
+.btn-google:hover {
+  background: lightgrey;
+  transition: all 0.3s ease 0s;
+}
+.main-ii {
+  width: 100%;
+  height: 180px;
+  background: #F3F5F9;
+  padding-top: 20px;
+}
+.m-ii-text {
+  justify-content: center;
+  width: 100%;
+}
+.log-s {
+  width: 100%;
+}
+/* MEDIA QUERY --------------------------------------- */
