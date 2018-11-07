@@ -130,6 +130,7 @@ a:hover {
   color: grey;
   font-weight: 600;
   margin: 35px 0;
+  text-align: left;
 }
 .tab-b h3:hover {
   color: #031B4E;
@@ -142,12 +143,82 @@ a:hover {
   font-size: 20px;
   color: #031B4E;
   font-weight: 600;
+  text-align: left;
 }
 .tab-b-dx h4 {
   font-size: 15px;
   color: #C0C6D3;
   font-weight: 400;
   text-align: left;
+}
+.main-iv h3, .main-v h3 {
+  font-size: 35px;
+  color: #031B4E;
+  font-weight: 600;
+  text-align: center;
+}
+.main-iv h4 {
+  font-size: 20px;
+  color: #4E5F83;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+.main-iv h5 {
+  font-size: 15px;
+  color: #4E5F83;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+.m-iv-img img {
+  margin-top: 30px;
+  width: 700px;
+  height: 420px;
+  border-radius: 7px;
+}
+.m-iv-img i {
+  margin: 200px 30px;
+  font-size: 30px;
+  color: #031B4E;
+}
+.dot-s i {
+  padding: 0 6px;
+  color: blue;
+  font-size: 10px;
+}
+.main-v h4 {
+  font-size: 20px;
+  color: #031B4E;
+  font-weight: 800;
+  text-align: left;
+  margin-top: 20px;
+}
+.main-v h5 {
+  font-size: 16px;
+  color: #4E5F83;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 30px;
+  line-height: 25px;
+}
+.main-v h6 {
+  font-size: 15px;
+  color: #3A91FD;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 30px;
+}
+.v-col img {
+  width: 50px;
+  height: 50px;
+}
+.main-vi h3 {
+  font-size: 35px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  z-index: 9000;
 }
 /* DIV ---------------------------------------------------- */
 .flex-cont {
@@ -261,7 +332,7 @@ a:hover {
 }
 .main-ii {
   width: 100%;
-  height: 180px;
+  height: 200px;
   background: #F3F5F9;
   padding-top: 20px;
 }
@@ -277,14 +348,14 @@ a:hover {
 }
 .main-iii {
   width: 100%;
-  height: 500px;
+  height: 800px;
   padding: 50px 60px;
 }
 .tab-b {
   margin-top: 50px;
   justify-content: space-between;
   padding-left: 30px;
-  margin-left: 130px;
+  margin-left: 100px;
   border-left: 2px solid lightgrey;
   height: 300px;
 }
@@ -296,5 +367,35 @@ a:hover {
 }
 .t-sx, .t-dx {
   width: 400px;
+}
+.main-iv {
+  width: 100%;
+  height: 900px;
+  background: #F3F5F9;
+  padding: 100px 200px;
+}
+.m-iv-img {
+  width: 100%;
+  justify-content: center;
+}
+.dot-s {
+  justify-content: center;
+  margin-top: 50px;
+}
+.main-v {
+  width: 100%;
+  height: 500px;
+  padding: 70px 30px;
+}
+.v-col {
+  width: 30%;
+  margin: 35px 30px;
+}
+.main-vi {
+  width: 100%;
+  height: 700px;
+  background: #0044C3;
+  filter:
+  padding: 70px 0;
 }
 /* MEDIA QUERY --------------------------------------- */
