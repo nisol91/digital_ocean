@@ -533,4 +533,55 @@ a:hover {
 .log-soc {
   margin-top: 30px;
 }
+.burg {
+  display: none;
+}
 /* MEDIA QUERY --------------------------------------- */
+@media (max-width: 1200px) {
+  .head h3, .head h4, #fl-r, .fa-angle-down, .sig-n {
+    display: none;
+  }
+  .burg {
+    display: inherit;
+    float: right;
+    font-size: 30px;
+  }
+  .burg i {
+    margin-top: 25px;
+  }
+  .t-dx {
+    display: none;
+  }
+  .log-s img {
+    /* width: 120px;
+    height: 70px; */
+    margin: 0 15px;;
+  }
+  .t-sx {
+    width: 600px;
+  }
+}
+@media (max-width: 1000px) {
+  .main-i {
+    display: block;
+    height: auto;
+  }
+  .m-i-left {
+    width: 100%;
+  }
+  .m-i-left >* {
+    text-align: center;
+  }
+  .m-i-right {
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1600px) {
+  .t-sx, .t-dx {
+    width: 50%;
+  }
+  .main-i {
+    justify-content: space-around;
+  }
+}
