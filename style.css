@@ -271,8 +271,27 @@ a:hover {
 }
 .foot-er h3 {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(72, 87, 108);
+  margin-top: 20px;
+}
+.fot-col h3:hover {
+  color: white;
+}
+.fot-sx h3 {
+  width: 320px;
+}
+.fot-sx img {
+  width: 60px;
+  height: 60px;
+}
+.log-soc i {
+  color: rgb(72, 87, 108);
+  font-size: 25px;
+  margin-right: 20px;
+}
+.log-soc i:hover {
+  color: white;
 }
 /* DIV ---------------------------------------------------- */
 .flex-cont {
@@ -503,12 +522,15 @@ a:hover {
   padding: 50px 50px;
 }
 .fot-sx {
-  width: 30%;
+  width: 40%;
   height: 90%;
 }
 .fot-col {
   width: 20%;
   height: 90%;
   padding: 10px 10px;
+}
+.log-soc {
+  margin-top: 30px;
 }
 /* MEDIA QUERY --------------------------------------- */
