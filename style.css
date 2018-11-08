@@ -151,7 +151,7 @@ a:hover {
   font-weight: 400;
   text-align: left;
 }
-.main-iv h3, .main-v h3 {
+.main-iv h3, .main-v h3, .main-vii h3 {
   font-size: 35px;
   color: #031B4E;
   font-weight: 600;
@@ -239,6 +239,40 @@ a:hover {
 }
 .main-vi h5:hover {
   color: #1e5ecf;
+}
+.m-vii-img img {
+  margin-top: 30px;
+  width: 800px;
+  height: 420px;
+  border-radius: 7px;
+  border: 1px solid lightgrey;
+}
+.m-vii-img i {
+  margin: 200px 30px;
+  font-size: 30px;
+  color: #031B4E;
+}
+.main-viii h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+.main-viii h4 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #2485FD;
+}
+.foot-er h2 {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+.foot-er h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(72, 87, 108);
 }
 /* DIV ---------------------------------------------------- */
 .flex-cont {
@@ -435,8 +469,46 @@ a:hover {
 }
 .main-vii {
   width: 100%;
-  height: 900px;
+  height: 800px;
   background: #F3F5F9;
   padding: 100px 200px;
+}
+.m-vii-img {
+  width: 100%;
+  justify-content: center;
+}
+.main-viii {
+  background: #023BB5;
+  width: 100%;
+  height: 200px;
+  padding-top: 50px;
+}
+.viii-btn {
+  background: white;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+.viii-btn:hover {
+  background: lightgrey;
+  transition: all 0.3s ease 0s;
+}
+.foot-er {
+  background: #010E28;
+  width: 100%;
+  height: 450px;
+  padding: 50px 50px;
+}
+.fot-sx {
+  width: 30%;
+  height: 90%;
+}
+.fot-col {
+  width: 20%;
+  height: 90%;
+  padding: 10px 10px;
 }
 /* MEDIA QUERY --------------------------------------- */
