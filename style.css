@@ -553,8 +553,6 @@ a:hover {
     display: none;
   }
   .log-s img {
-    /* width: 120px;
-    height: 70px; */
     margin: 0 15px;;
   }
   .t-sx {
@@ -583,5 +581,62 @@ a:hover {
   }
   .main-i {
     justify-content: space-around;
+  }
+}
+@media (max-width: 800px) {
+  .log-s img {
+    margin: 0 5px;
+    width: 15%;
+  }
+  .tab-b {
+    margin-left: 40px;
+  }
+  .t-sx {
+    width: 420px;
+  }
+  .main-v h5 {
+    font-size: 12px;
+  }
+  .main-vi h2 {
+    margin: 0 100px;
+  }
+  .m-iv-img img, .m-vii-img img {
+    width: 600px;
+    height: 350px;
+  }
+  .foot-er {
+    display: block;
+  }
+  .fot-col {
+    float: left;
+    width: 25%;
+    margin-top: 0;
+    height: 30%;
+  }
+  .fot-sx {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fot-sx h3 {
+    text-align: center;
+  }
+  .foot-er {
+    height: 700px;
+  }
+  .main-iv, .main-vii {
+    padding: 100px 80px;
+  }
+  .main-vi {
+    height: 900px;
+  }
+  .vi-cont-tab {
+    display: block;
+  }
+  .vi-sx, .vi-dx {
+    width: 100%;
+    height: 50%;
   }
 }
