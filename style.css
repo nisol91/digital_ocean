@@ -661,11 +661,11 @@ a:hover {
     display: none;
   }
   .m-i-right {
-    width: 350px;
+    width: 330px;
     height: 480px;
   }
   .btn-account, .btn-google {
-    width: 256px;
+    width: 236px;
   }
   .tab-b {
     margin-left: 95px;
@@ -703,10 +703,10 @@ a:hover {
     margin: 25px 30px;
   }
   .btn-account h3 {
-    margin: 4px 36px;
+    margin: 4px 29px;
   }
   .btn-google h3 {
-    margin: -21px 32px;
+    margin: -21px 26px;
   }
   .btn-google img {
     margin-top: -2px;
