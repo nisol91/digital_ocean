@@ -720,7 +720,77 @@ a:hover {
     justify-content: flex-start;
   }
   .log-s img {
-    width: 25%;
+    width: 30%;
     margin: 10px 0;
+  }
+}
+@media (min-height: 380px) {
+  .m-i-right {
+    width: 280px;
+  }
+  .m-i-left h1 {
+    font-size: 50px;
+  }
+  .btn-account, .btn-google {
+    width: 187px;
+  }
+  .btn-account h3 {
+    font-size: 12px;
+    margin: 6px 25px;
+  }
+  .btn-google h3 {
+    font-size: 12px;
+    margin: -18px 18px;
+  }
+  .main-iii {
+    height: 850px;
+  }
+  .tab-b {
+    margin-left: 70px;
+  }
+  .main-iv {
+    height: 1050px;
+  }
+  .main-vi {
+    height: 1100px;
+  }
+  .vi-sx, .vi-dx {
+    height: 34%;
+  }
+  .main-vi h3 {
+    font-size: 15px;
+  }
+  .main-vi h4 {
+    font-size: 8px;
+  }
+  .main-vi h2 {
+    margin: 0px 20px;
+  }
+  .main-vi h5 {
+    font-size: 10px;
+  }
+  .main-vii h3 {
+    font-size: 38px;
+  }
+  .main-vii {
+    padding: 100px 40px;
+  }
+  .foot-er h3 {
+    font-size: 10px;
+  }
+  .fot-col {
+    float: left;
+    width: 50%;
+    height: 270px;
+  }
+  .fot-sx {
+    width: 100%;
+    height: 250px;
+  }
+  .foot-er {
+    height: 900px;
+  }
+  .m-iv-img i, .m-vii-img i {
+    margin: 200px 10px
   }
 }
