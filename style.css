@@ -724,7 +724,7 @@ a:hover {
     margin: 10px 0;
   }
 }
-@media (min-height: 380px) {
+@media (max-width: 380px) {
   .m-i-right {
     width: 280px;
   }
